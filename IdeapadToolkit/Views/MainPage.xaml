@@ -87,7 +87,7 @@
                 <ui:SimpleStackPanel Spacing="16">
                     <StackPanel Orientation="Horizontal">
                         <ui:ToggleSwitch
-                            Width="200"
+                            Width="150"
                             ui:ControlHelper.Header="Ouvrir capot pour démarrer"
                             IsEnabled="{Binding IsAdministrator}"
                             IsOn="{Binding IsFlipToBootEnabled}" />
@@ -101,7 +101,7 @@
                                 <Image
                                     Width="24"
                                     Height="24"
-                                    Margin="100"
+                                    Margin="10"
                                     Source="/Resources/admin.png" />
                             </Button.Content>
                         </Button>
