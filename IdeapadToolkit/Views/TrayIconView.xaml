@@ -81,7 +81,7 @@
                     <MenuItem
                         Name="MenuItemExit"
                         Click="MenuItemExit_Click"
-                        Header="Quiter" />
+                        Header="Quitter" />
                 </ContextMenu>
             </FrameworkElement.ContextMenu>
         </tb:TaskbarIcon>
