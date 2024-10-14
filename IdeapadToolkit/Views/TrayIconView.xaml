@@ -43,7 +43,7 @@
                     <ui:RadioMenuItem
                         Command="{Binding SetChargingModeCommand}"
                         GroupName="ChargingMode"
-                        Header="Rapid"
+                        Header="Rapide"
                         IsChecked="{Binding IsRapidModeEnabled}">
                         <ui:RadioMenuItem.CommandParameter>
                             <system:Int32>2</system:Int32>
@@ -53,7 +53,7 @@
                     <ui:RadioMenuItem
                         Command="{Binding SetPlanCommand}"
                         GroupName="PowerPlan"
-                        Header="Battery Saving"
+                        Header="Économie de batterie"
                         IsChecked="{Binding Path=IsEfficientChecked}">
                         <ui:RadioMenuItem.CommandParameter>
                             <system:Int32>2</system:Int32>
@@ -62,7 +62,7 @@
                     <ui:RadioMenuItem
                         Command="{Binding SetPlanCommand}"
                         GroupName="PowerPlan"
-                        Header="Intelligent Cooling"
+                        Header="Refroidissement intelligent"
                         IsChecked="{Binding Path=IsIntelligentCoolingChecked}">
                         <ui:RadioMenuItem.CommandParameter>
                             <system:Int32>1</system:Int32>
@@ -71,7 +71,7 @@
                     <ui:RadioMenuItem
                         Command="{Binding SetPlanCommand}"
                         GroupName="PowerPlan"
-                        Header="Extreme Performance"
+                        Header="Performances maximales"
                         IsChecked="{Binding Path=IsExtremePerformanceChecked}">
                         <ui:RadioMenuItem.CommandParameter>
                             <system:Int32>3</system:Int32>
@@ -81,7 +81,7 @@
                     <MenuItem
                         Name="MenuItemExit"
                         Click="MenuItemExit_Click"
-                        Header="Exit" />
+                        Header="Quiter" />
                 </ContextMenu>
             </FrameworkElement.ContextMenu>
         </tb:TaskbarIcon>
