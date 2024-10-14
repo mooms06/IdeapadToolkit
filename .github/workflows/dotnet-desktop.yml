@@ -14,6 +14,7 @@ jobs:
     env:
       App_Packages_Archive: IdeapadToolkit_Fr.zip
       License_Path: IdeapadToolkit\Properties\PublishProfiles\3RD_PARTY_LICENSES.txt
+      Power_Battery: IdeapadToolkit\Properties\PublishProfiles\PowerBattery.dll
       App_Publish_Directory: bin\Release\net8.0-windows\publish\win-x64
       App_Project_Directory: IdeapadToolkit\
       Solution_Path: IdeapadToolkit.sln
@@ -49,6 +50,10 @@ jobs:
     # Copy license file to the publish directory
     - name: Copy license file to the publish directory
       run: Copy-Item -Path $env:License_Path -Destination $env:App_Project_Directory\$env:App_Publish_Directory\
+
+    # Copy powerbattery.dll file to the publish directory
+    - name: Copy license file to the publish directory
+      run: Copy-Item -Path $env:Power_Battery -Destination $env:App_Project_Directory\$env:App_Publish_Directory\
 
     # Create archive
     - name: Create archive
