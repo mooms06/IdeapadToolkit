@@ -88,7 +88,7 @@
                     <StackPanel Orientation="Horizontal">
                         <ui:ToggleSwitch
                             Width="190"
-                            ui:ControlHelper.Header="Ouvrir capot pour démarrer"
+                            ui:ControlHelper.Header="Ouvrir le capot pour démarrer"
                             IsEnabled="{Binding IsAdministrator}"
                             IsOn="{Binding IsFlipToBootEnabled}" />
                         <Button
