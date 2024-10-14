@@ -107,7 +107,7 @@
                         </Button>
                     </StackPanel>
 
-                    <ui:ToggleSwitch ui:ControlHelper.Header="Always on USB" IsOn="{Binding IsAlwaysOnUsbEnabled}" />
+                    <ui:ToggleSwitch ui:ControlHelper.Header="USB toujours activé" IsOn="{Binding IsAlwaysOnUsbEnabled}" />
                     <ui:ToggleSwitch
                         ui:ControlHelper.Header="USB toujours activé sur batterie"
                         IsEnabled="{Binding IsAlwaysOnUsbEnabled}"
