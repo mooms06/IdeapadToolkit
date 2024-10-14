@@ -12,7 +12,7 @@ jobs:
     runs-on: windows-latest
 
     env:
-      App_Packages_Archive: IdeapadToolkit.zip
+      App_Packages_Archive: IdeapadToolkit_Fr.zip
       License_Path: IdeapadToolkit\Properties\PublishProfiles\3RD_PARTY_LICENSES.txt
       App_Publish_Directory: bin\Release\net8.0-windows\publish\win-x64
       App_Project_Directory: IdeapadToolkit\
